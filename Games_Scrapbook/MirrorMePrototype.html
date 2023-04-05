@@ -20,6 +20,9 @@
     <!-- personal pizzaz -->
     <link rel="stylesheet" href="/css/overwrite.css">
     <link rel="stylesheet" href="/css/style.css">
+    
+    <link rel="shortcut icon" href="/images/icons/Favicon_1.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/icons/Racoon.svg" type="image/svg+xml">
 
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
@@ -53,7 +56,7 @@
         </div>
     </nav>
     <div class="content flex-grow-1">
-        <div class="innerColumn"><h1>gello world</h1>
+        <div class="innerColumn"><h1>Mirror Me Prototype</h1>
 
 
     <div class="d-flex justify-content-end gap-10 ">
@@ -61,19 +64,46 @@
     </div>
 
 
-    <div id="carouselIndicators" class="carousel slide">
+    <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
         
-            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class=".active"></button>
+        
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" class="."></button>
+        
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class="."></button>
+        
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" class="."></button>
         
     </div>
     <div class="carousel-inner rnd m-2 imageGallery">
         
             <div class="h-100 carousel-item active">
-              <div class="gallery-item" style="background-image:URL('/images/gallery/Screenshot051835-5f5eef53.png')">
+              <div class="gallery-item" style="background-image:URL('/images/gallery/2338189926-45bc8f19.png')">
 
               </div>
-                <!-- <img src="/images/gallery/Screenshot051835-5f5eef53.png" class="d-block w-100"> -->
+                <!-- <img src="/images/gallery/2338189926-45bc8f19.png" class="d-block w-100"> -->
+            </div>
+        
+            <div class="h-100 carousel-item ">
+              <div class="gallery-item" style="background-image:URL('/images/gallery/2519257567-64779cfb.png')">
+
+              </div>
+                <!-- <img src="/images/gallery/2519257567-64779cfb.png" class="d-block w-100"> -->
+            </div>
+        
+            <div class="h-100 carousel-item ">
+              <div class="gallery-item" style="background-image:URL('/images/gallery/3038709073-19505871.png')">
+
+              </div>
+                <!-- <img src="/images/gallery/3038709073-19505871.png" class="d-block w-100"> -->
+            </div>
+        
+            <div class="h-100 carousel-item ">
+              <div class="gallery-item" style="background-image:URL('/images/gallery/3698225031-7c3f3802.png')">
+
+              </div>
+                <!-- <img src="/images/gallery/3698225031-7c3f3802.png" class="d-block w-100"> -->
             </div>
         
     </div>
@@ -87,19 +117,24 @@
     </button>
   </div>
 
-<pre class="m-2">asdf</pre>
+<pre class="m-2">Mirror Me was a final-year university collaborative project between myself and Daniel Bou-Antoun. The game took the better part of a year and started as a simple idea, “What if you had to kill your mirror copy”. 
+
+The idea behind this was that the player would have to use the mirrored character to traverse the level, before getting rid of their mirror copy so they could transport themselves over to the mirror world, which would be done through a mirror object at the end of each level. 
+
+In this prototype killing, the mirrored player would be achieved by small discrepancies between the two mirror worlds, like the timings in the spikes, falling objects etc.
+This came together when I created a small prototype where a player would be mirrored past a transparent wall and would have to use another character to walk through the level assisted by the visible parts of the mirrored level.
+
+This prototype evolved into <a href="/Games/MirrorMe">Mirror me</a>.</pre>
 
 </div>
 </div>
 <footer class="bg-primary d-flex justify-content-around align-items-center">
     <p class="h-1" >© David Bud 2023</p>
+    <p>David@Davidbud.com</p>
     <div>
         <a href="https://github.com/Davidbudr">
             <img class="h-1 ms-3" src="/images/icons/github.svg">
         </a>
-        <!-- <a href="https://github.com/Davidbudr">
-            <img class="h-1 ms-3" src="./images/icons/deviantart.svg">
-        </a> -->
     </div>
 </footer>
 </div>
