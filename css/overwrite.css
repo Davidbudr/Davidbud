@@ -1,0 +1,42 @@
+:root{
+    --bs-primary: #CA84D6;
+    --bs-secondary: #735CA1;
+}
+a{
+    color:var(--bs-primary);
+}
+.navbar{
+    --bs-navbar-color: var(--bs-secondary);
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-color: var(--bs-primary);
+}
+.navbar-nav .nav-link{
+    color: var(--bs-gray-100);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover{
+    color: var(--bs-secondary);
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.btn-primary{
+    --bs-btn-color: var(--bs-secondary);
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+
+    --bs-btn-hover-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-secondary);
+    --bs-btn-hover-border-color: var(--bs-secondary);
+}
+.btn-outline-primary{
+    --bs-btn-color: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-secondary);
+    --bs-btn-hover-border-color: var(--bs-secondary);
+}

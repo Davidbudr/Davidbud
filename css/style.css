@@ -1,0 +1,138 @@
+:root{
+    --db-link-vis: #D9D9D9;
+    --db-primary: #CA84D6;
+    --db-secondary: #735CA1;
+    --db-3: #D6CA84;
+    --db-4: #B5A05B;
+    --db-5: #84D6CA;
+    --db-6: #5FB1BA;
+}
+*, pre{
+    font-family: 'Oswald', sans-serif;
+}
+pre{
+    font-size: 1rem;
+    white-space: pre-wrap;
+}
+.height-fill{
+    min-height: 100vh;
+}
+.h-1{
+    height:1.5rem;
+}
+.bg-primary{
+    background-color:var(--db-primary) !important;
+}
+.content{
+    background-image: url('/images/Background.png');
+    image-rendering: pixelated;
+    background-size:cover;
+    /* background-image: url(https://img.itch.zone/aW1nLzk4NzIyNzAucG5n/original/rP8hyc.png); */
+    background-position: 50% 0;
+}
+.innerColumn{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    /* background-color: var(--db-6); */
+}
+.logo {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 200;
+    font-size: 2rem;
+    color: white;
+}
+.link{
+    color: var(--bs-primary);
+    text-decoration: underline;
+}
+.link:hover,
+.link:active,
+.link:focus{
+    color: var(--db-link-vis);
+    text-decoration: underline;
+}
+.shifting-card{
+    aspect-ratio: 1/1.35;
+    perspective: 500px;
+    perspective-origin: center center;
+}
+.shifting-child{
+    background-size: cover;
+    background-position: center center;
+    height:100%;
+    width:100%;
+    transform-style:preserve-3d
+}
+.gallery-home{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 5px;
+}
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+    gap: 5px;
+}
+.item{
+    align-self:center;
+}
+.gap-10{
+    gap: 10px;
+}
+.rnd,
+.previewImage,
+.previewCard,
+.shifting-child{
+    border-radius: 15px;
+}
+.previewImage{
+    width: 200px;
+    height: 150px;
+    background-color: var(--db-5);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 5px;
+}
+.previewCard{
+    margin: 15px;
+    max-width: 300px;
+    display:block;
+    
+}
+.imageGallery{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.gallery-item{
+    width: 100%;
+    height: 100%;
+    background-color: var(--db-5);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.db-font{
+    display:inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: var(--db-primary);
+    mask-repeat: no-repeat;
+}
+.font-itch-io{
+    mask-image: url(/images/icons/itch-io.svg);
+}
+.font-deviantart{ 
+    mask-image: url(/images/icons/deviantart.svg);
+}
+.font-newgrounds{ 
+    mask-image: url(/images/icons/newgrounds.svg);
+}
+.singleImg{
+    height: 300px;
+    margin: auto;
+}

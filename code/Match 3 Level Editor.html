@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Bud</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- personal pizzaz -->
+    <link rel="stylesheet" href="/css/overwrite.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <link rel="shortcut icon" href="/images/icons/Favicon_1.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/icons/Racoon.svg" type="image/svg+xml">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <div class="d-flex flex-column height-fill">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="/">David Bud</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navlist" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navlist">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="/Art">Art</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="/Code">Code</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="/Games">Games</a>
+                    </li>
+            
+                </ul>  
+            </div>
+        </div>
+    </nav>
+    <div class="content flex-grow-1">
+        <div class="innerColumn"><h1>Match 3 Level Editor</h1>
+
+
+    <div class="d-flex justify-content-end gap-10 ">
+    
+         
+            <a class="btn btn-outline-primary" href="https://github.com/Davidbudr/Match-3-Level-Editor"><i class="bi bi-github me-2"></i>View</a>
+        
+    
+    </div>
+
+
+    <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"></button>
+        
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" class=""></button>
+        
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class=""></button>
+        
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" class=""></button>
+        
+    </div>
+    <div class="carousel-inner rnd m-2 imageGallery">
+        
+            <div class="h-100 carousel-item active">
+              <div class="gallery-item" style="background-image:URL('/images/gallery/2022-01-2711_18_48-Window-a110711a.png')">
+
+              </div>
+                <!-- <img src="/images/gallery/2022-01-2711_18_48-Window-a110711a.png" class="d-block w-100"> -->
+            </div>
+        
+            <div class="h-100 carousel-item ">
+              <div class="gallery-item" style="background-image:URL('/images/gallery/2022-01-2711_19_28-Window-cb22ee51.png')">
+
+              </div>
+                <!-- <img src="/images/gallery/2022-01-2711_19_28-Window-cb22ee51.png" class="d-block w-100"> -->
+            </div>
+        
+            <div class="h-100 carousel-item ">
+              <div class="gallery-item" style="background-image:URL('/images/gallery/2022-01-2711_20_57-Window-2fbe6a8b.png')">
+
+              </div>
+                <!-- <img src="/images/gallery/2022-01-2711_20_57-Window-2fbe6a8b.png" class="d-block w-100"> -->
+            </div>
+        
+            <div class="h-100 carousel-item ">
+              <div class="gallery-item" style="background-image:URL('/images/gallery/2022-01-2711_21_25-Window-591a7b7b.png')">
+
+              </div>
+                <!-- <img src="/images/gallery/2022-01-2711_21_25-Window-591a7b7b.png" class="d-block w-100"> -->
+            </div>
+        
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<pre class="m-2">This tool was created to address 2 main issues I had while creating my match 3 game Cat Knight. Firstly, I wanted to be able to quickly and easily prototype levels, this meant that whatever system I had in place should be quicker and easier to use than placing out each prefab by hand. Secondly, I wanted to be able to scale larger levels down so that they would still be able to fit comfortably within the confines of a phone screen or vice versa with smaller levels.
+
+What I came up with was a system where the user (me in this case) could select the play area size, scale the level size up or down to better fit the screen, and ‘paint’ the prefabs onto canvas similar to pixel art to allow for easier level creation, this allowed me to quickly mock up levels on paper while away from my pc, and implement them later, as well as quickly iterate when a level wasn’t working as I had hoped.
+
+While initially this level editor was created for a single project, its simplicity and flexibility make it useful for all match 3 game level creation, an example use case of this is creating candy crush levels, as seen in the final image below.</pre>
+
+</div>
+</div>
+<footer class="bg-primary d-flex justify-content-around align-items-center">
+    <p class="h-1" >© David Bud 2023</p>
+    <p>David@Davidbud.com</p>
+    <div>
+        <a href="https://github.com/Davidbudr">
+            <img class="h-1 ms-3" src="/images/icons/github.svg">
+        </a>
+    </div>
+</footer>
+</div>
+</body>
+</html>
+<script src="/js/shift.js"></script>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Bud</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- personal pizzaz -->
+    <link rel="stylesheet" href="/css/overwrite.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <link rel="shortcut icon" href="/images/icons/Favicon_1.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/icons/Racoon.svg" type="image/svg+xml">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <div class="d-flex flex-column height-fill">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="/">David Bud</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navlist" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navlist">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="/Art">Art</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="/Code">Code</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="/Games">Games</a>
+                    </li>
+            
+                </ul>  
+            </div>
+        </div>
+    </nav>
+    <div class="content flex-grow-1">
+        <div class="innerColumn"><h1>RPG System 2</h1>
+
+
+    <div class="d-flex justify-content-end gap-10 ">
+    
+         
+            <a class="btn btn-outline-primary" href="https://github.com/Davidbudr/Speech-System"><i class="bi bi-github me-2"></i>View</a>
+        
+    
+    </div>
+
+
+    <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"></button>
+        
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" class=""></button>
+        
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class=""></button>
+        
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" class=""></button>
+        
+    </div>
+    <div class="carousel-inner rnd m-2 imageGallery">
+        
+            <div class="h-100 carousel-item active">
+              <div class="gallery-item" style="background-image:URL('/images/gallery/Requirements-9ea6a236.png')">
+
+              </div>
+                <!-- <img src="/images/gallery/Requirements-9ea6a236.png" class="d-block w-100"> -->
+            </div>
+        
+            <div class="h-100 carousel-item ">
+              <div class="gallery-item" style="background-image:URL('/images/gallery/Rewards-85070bc3.png')">
+
+              </div>
+                <!-- <img src="/images/gallery/Rewards-85070bc3.png" class="d-block w-100"> -->
+            </div>
+        
+            <div class="h-100 carousel-item ">
+              <div class="gallery-item" style="background-image:URL('/images/gallery/SettingsPage-64b308fe.png')">
+
+              </div>
+                <!-- <img src="/images/gallery/SettingsPage-64b308fe.png" class="d-block w-100"> -->
+            </div>
+        
+            <div class="h-100 carousel-item ">
+              <div class="gallery-item" style="background-image:URL('/images/gallery/SpeechSystem-9321e2e5.gif')">
+
+              </div>
+                <!-- <img src="/images/gallery/SpeechSystem-9321e2e5.gif" class="d-block w-100"> -->
+            </div>
+        
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<pre class="m-2">While working on a zombie RPG I realised that my Dialogue tree system was lacking in some key areas;
+it was useful for visualising the paths that the players’ choices could take them down, but would quickly become overcrowded and adding more dialogue options was a pain point in larger projects.
+
+Moreover, the dialogue tree was stored as JSON data, Which meant that I would easily be able to edit the files outside of the project, or even give the option to players to modify dialogue, however, this meant that events and other non-serializable options were unavailable to me.
+
+Lastly, the original system was made to be as simple as possible and implementation for things such as quests or inventory was left to be tacked onto it for each game, for this reason, quests, inventory count, or any other variable could not be taken into consideration when displaying options for the player responses to dialogue queues. 
+
+RPG System 2 aimed to solve all these issues.
+
+To solve the first issue I decided to take inspiration from a simple and effective game development software called ‘Quest’. This software is used to make text-based adventure games and while trying it out I found that the software was intuitive and easy to use with larger projects being easy to navigate, as such I based the visual style of my second RPG system on it. while this did remove some of the flairs of the previous system it made v2 a much cleaner and less complex system to work with.
+
+The second issue was a much larger hurdle than the first one. 
+I wanted a system where the player could affect both In world events and quest variables. At first, this seemed like a difficult prospect as there were many things that I wanted to be affected, everything from inventory items to quests, and events such as cutscenes being triggered.
+To achieve this I took inspiration from the Unity UI Buttons, this put me on track to using the Unity Event System to allow the system to affect anything and everything in-game through scripts.
+
+The last issue was made rather simple due to how I implemented the unity even system to activate when a given choice was picked. As such I started by developing an Inventory system and Quest system, which work with or without the dialogue system, then through the use of a script called NpcExtender, I made it possible for NPCs to grant quests, change quests states, and take or give inventory items. Using this script with the Unity event system mentioned earlier, it became possible to reward players for different choices. 
+
+To achieve requirements for each of the dialogue choices I tapped into the quest system that I made earlier, firstly, I made the system observe what is in the players’ inventory, and how much of it exists, giving the dialogue system the option to do a check for item quantity ( A use-case for this would be if you are giving food in exchange for information, or if you must have a certain amount of ammunition to start a quest), using the same system the NPC can check if a player has completed a certain quest by checking for an integer value. Lastly, to accommodate this, I made it possible to not only check if the value is equal but greater or less than the stated value as it gave more flexibility.</pre>
+
+</div>
+</div>
+<footer class="bg-primary d-flex justify-content-around align-items-center">
+    <p class="h-1" >© David Bud 2023</p>
+    <p>David@Davidbud.com</p>
+    <div>
+        <a href="https://github.com/Davidbudr">
+            <img class="h-1 ms-3" src="/images/icons/github.svg">
+        </a>
+    </div>
+</footer>
+</div>
+</body>
+</html>
+<script src="/js/shift.js"></script>
