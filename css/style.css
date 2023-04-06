@@ -136,3 +136,9 @@ pre{
     height: 300px;
     margin: auto;
 }
+@media (max-width: 900px) {
+    .imageGallery{
+        width: 100%;
+        aspect-ratio: 1 / 1;
+    }
+}
